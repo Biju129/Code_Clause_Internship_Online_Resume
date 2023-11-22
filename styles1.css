@@ -1,0 +1,91 @@
+/* *{
+    background-color: rgba(241, 239, 239, 0.078);
+} */
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit:scale-down;
+}
+
+body{
+    background-image:url(images/sabri-tuzcu-wunVFNvqhfE-unsplash.jpg);
+    background-size:cover;
+    background-blend-mode:color-burn;
+}
+
+main{
+    background-color: #f2f2f286;
+}
+
+header {
+    background-color: #f2f2f286;
+    padding: 30px;
+    text-align: center;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container.h1{
+    align-items: center;
+}
+.job-title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-me{
+    text-align: center;
+}
+
+footer{
+    background-color: #f2f2f286;
+    text-decoration:brown;
+    text-decoration:wavy;
+    align-items:baseline;
+    border-spacing: 10px;
+}
+
+a:link{
+    color: rgb(0, 22, 134);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(138, 165, 42);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkred;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.Email{
+    height: 15px;
+    width: 25px;
+    align-self:auto;
+    margin-bottom: 0px;
+}
+.LinkedInLogo{  
+      
+    height: 20px;
+    width: 20px;
+    align-self:auto;
+    margin-bottom: 0px;
+}
+
+.GitHub{
+    height: 20px;
+    width: 20px;
+    align-self:auto;
+    margin-bottom: 0px;
+}
